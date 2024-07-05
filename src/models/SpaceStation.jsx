@@ -9,7 +9,7 @@ Title: Space Station 3
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
-import Space from "../assets/3d/space_station_3.glb";
+import Space from "/3d/space_station_3.glb";
 
 export function SpaceStation({ props }) {
   const group = useRef();

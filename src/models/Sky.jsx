@@ -9,7 +9,7 @@ Title: Night Sky Visible Spectrum Monochromatic
 import React from "react";
 import { useGLTF } from "@react-three/drei";
 
-import SkyScene from "../assets/3d/night_sky_visible_spectrum_monochromatic.glb";
+import SkyScene from "/3d/night_sky_visible_spectrum_monochromatic.glb";
 
 export function Sky() {
   const sky = useGLTF(SkyScene);
